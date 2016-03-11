@@ -65,4 +65,4 @@ jspm_packages
 .node_repl_history
 
 #smarty
-templates_c
+templates_c/*
