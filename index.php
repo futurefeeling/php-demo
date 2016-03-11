@@ -2,7 +2,7 @@
 
   // url 形式 index.php?controller=控制器名&method=方法名
 
-  require_once('./function.php');
+  require_once('libs/Function/function.php');
   require_once('config.php');
   // 定义允许访问的控制器和方法
   $controllerAllow = array('index', 'test');
