@@ -5,5 +5,5 @@
         'DB' => 'Core/DB.class.php',
         'VIEW' => 'Core/VIEW.class.php',
         'mysql' => 'Db/mysql.class.php',
-        'Smarty' => 'ORG/Smarty/Smarty.class.php',
+        'smarty' => 'ORG/Smarty/Smarty.class.php',
     );

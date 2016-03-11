@@ -8,7 +8,7 @@
    */
   function C($name, $method)
   {
-      require_once './libs/Controller/'.$name.'Controller.class.php';
+      require_once('./Controller/'.$name.'Controller.class.php');
       $controller = $name.'Controller';
       $newController = new $controller();
       $newController->$method();
@@ -23,7 +23,7 @@
    */
   function M($name)
   {
-      require_once './libs/Model/'.$name.'Model.class.php';
+      require_once './Model/'.$name.'Model.class.php';
       $model = $name.'Model';
       $newModel = new $model();
 
@@ -39,7 +39,7 @@
    */
   function V($name)
   {
-      require_once './libs/View/'.$name.'View.class.php';
+      require_once './View/'.$name.'View.class.php';
       $view = $name.'View';
       $newView = new $view();
 

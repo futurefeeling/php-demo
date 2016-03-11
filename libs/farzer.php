@@ -4,9 +4,9 @@
 
     $currentdir = dirname(__FILE__);
 
-    include_once $currentdir.'/include.list.php';
+    include_once($currentdir.'/include.list.php');
     foreach ($paths as $name => $path) {
-        include_once $currentdir.'/'.$path;
+        include_once($currentdir.'/'.$path);
     }
 
     class Farzer
