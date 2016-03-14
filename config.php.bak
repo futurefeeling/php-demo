@@ -1,0 +1,22 @@
+<?php
+
+  date_default_timezone_set('Asia/Hong_Kong');
+
+  $config = array(
+      'dbtype' => 'mysql',
+      'dbconfig' => array(
+          'HOST' => '127.0.0.1',
+          'USERNAME' => 'root',
+          'PASSWORD' => '密码',
+          'DBNAME' => '数据库名称',
+          'DBCHARSET' => 'utf8',
+      ),
+      'viewtype' => 'Smarty',
+      'viewconfig' => array(
+          'left_delimiter' => '{',
+          'right_delimiter' => '}',
+          'template_dir' => 'templates',
+          'compile_dir' => 'templates_c',
+      )
+  );
+?>
