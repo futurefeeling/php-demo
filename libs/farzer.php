@@ -27,12 +27,12 @@
 
         private static function init_controller()
         {
-            self::$controller = isset($_GET['controller']) ? daddslashes($_GET['controller']) : 'test';
+            self::$controller = isset($_GET['controller']) ? daddslashes($_GET['controller']) : 'admin';
         }
 
         public static function init_method()
         {
-            self::$method = isset($_GET['method']) ? daddslashes($_GET['method']) : 'test';
+            self::$method = isset($_GET['method']) ? daddslashes($_GET['method']) : 'login';
         }
 
         public static function run($config)
