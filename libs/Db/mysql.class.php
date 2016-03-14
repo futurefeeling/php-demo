@@ -92,7 +92,7 @@
        *
        * @return array          返回指定行指定字段的值
        */
-      public function findResult($query, $row = 0, $filed = 0)
+      public function findResult($query, $row = 0, $field = 0)
       {
           $result = mysql_result($query, $row, $field);
 

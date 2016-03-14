@@ -1,7 +1,7 @@
 <div class="list-group">
-  <a href="admin.php?controller=admin&method=newsadd" class="list-group-item active">
+    <a href="admin.php?controller=admin&method=index" class="list-group-item {if $location eq 'index'}active{/if}">主页</a>
+    <a href="admin.php?controller=admin&method=newslist" class="list-group-item {if $location eq 'newslist'}active{/if}">管理新闻</a>
+    <a href="admin.php?controller=admin&method=newsadd" class="list-group-item {if $location eq 'newsadd'}active{/if}">
     添加新闻
   </a>
-  <a href="admin.php?controller=admin&method=newslist" class="list-group-item">管理新闻</a>
-  <a href="admin.php?controller=admin&method=logout" class="list-group-item">退出登录</a>
 </div>

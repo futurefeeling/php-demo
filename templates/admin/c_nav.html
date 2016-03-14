@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">FARZER</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,8 +36,11 @@
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://127.0.0.1/farzer/admin.php?controller=admin&method=login">登录</a></li>
-                <li><a href="http://127.0.0.1/farzer/admin.php?controller=admin&method=logout">    退出</a></li>
+                {if $login}
+                    <li><a href="http://127.0.0.1/farzer/admin.php?controller=admin&method=logout">退出</a></li>
+                {else}
+                    <li><a href="http://127.0.0.1/farzer/admin.php?controller=admin&method=login">登录</a></li>
+                {/if}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

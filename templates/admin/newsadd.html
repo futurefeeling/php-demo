@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     {include file='admin/c_common_css_link.html'}
-    <title>首页</title>
+    <title>添加／修改</title>
 </head>
 
 <body>
@@ -16,7 +16,11 @@
                 {include file='admin/c_admin_left_menu.html'}
             </div>
             <div class="col-md-9">
-                本站已经发布{$newsnum}篇新闻
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        {include file='admin/c_news_edit_form.html'}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
