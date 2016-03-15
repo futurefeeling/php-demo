@@ -6,4 +6,4 @@
 - 在根目录创建一个 `templates_c` 文件夹
 - 将 `config.php.bak` 文件名改为 `config.php`
 - 修改`config.php`文件中相关参数
-- ｀npm install｀
+- `npm install`
