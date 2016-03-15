@@ -7,3 +7,6 @@
 - 将 `config.php.bak` 文件名改为 `config.php`
 - 修改`config.php`文件中相关参数
 - `npm install`
+
+下一版本改进方向：
+- 添加markdown富文本编辑器
