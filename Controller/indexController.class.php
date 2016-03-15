@@ -1,7 +1,7 @@
 <?php
 
     /**
-     *
+     *	前台入口
      */
     class indexController
     {
