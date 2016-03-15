@@ -1,0 +1,8 @@
+.post-thumb {
+    margin-bottom: 20px;
+}
+
+.post-thumb + .post-thumb {
+    padding-top: 20px;
+    border-top: 2px dotted #c5cacf;
+}

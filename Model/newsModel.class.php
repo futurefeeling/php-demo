@@ -68,4 +68,16 @@
         {
             return DB::del($this->_table, "id=$id");
         }
+
+        public function getNewsList()
+        {
+            $data = $this->findAllOrderByDateline();
+
+            foreach ($data as $key => $news) {
+                $data[$key]['content'] = mb_substr(strip_tags($data[$key]['content']), 0, 400, 'utf-8');
+                $data[$key]['dateline'] = date('Y-m-d H:i:s', $data[$key]['dateline']);
+            }
+
+            return $data;
+        }
     }

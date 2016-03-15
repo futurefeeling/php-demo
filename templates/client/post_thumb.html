@@ -1,0 +1,15 @@
+<div class="post-thumb">
+    <p>
+        <span class="glyphicon glyphicon-user"></span> {$article.author}&ensp;
+        <span class="text-muted">发布于&ensp;</span>
+        <span class="glyphicon glyphicon-time"></span> {$article.dateline}
+    </p>
+    <h3>
+        <a href="index.php?controller=index&method=newsDetail&id={$article.id}">
+            <span class="glyphicon glyphicon-book"></span> {$article.title}
+        </a>
+    </h3>
+    <div class="post-content-thumb">
+        {$article.content} ...
+    </div>
+</div>
